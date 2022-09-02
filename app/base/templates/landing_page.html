@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+<!-- page title -->
+{% block title %} Home {% endblock title %}
+
+<!-- stylesheets -->
+{% block stylesheets %}
+{{ super() }}
+<style>
+</style>
+{% endblock stylesheets %}
+
+<!-- page header -->
+{% block pageheader %}
+<h1 class="m-0">Home</h1>
+{% endblock pageheader %}
+{% block breadcrumb_item %}
+<li class="breadcrumb-item active">Landing Page</li>
+{% endblock breadcrumb_item %}
+
+<!-- add your main content -->
+{% block content %}
+
+{% endblock content %}
+<!-- Main content end -->
+
+<!-- javascript files -->
+{% block javascripts %}
+{{ super() }}
+{% endblock javascripts %}
