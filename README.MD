@@ -13,8 +13,35 @@ This template is based on open source project by [AdminLTE.io](https://adminlte.
 
 ### Git commands
 
-```bash
-pip install -r requirement.txt
-```
+- Create folder and virtual environment
+  
+  ```bash
+  python -m venv venv
 
-> Work in progress
+  source venv/Scripts/activate
+
+  conda deactivate
+  ```
+- clone this repo
+  
+    ```bash
+    git clone https://github.com/Manan-Gajjar/WebApp-Template.git
+    ```
+- Install dependancy
+
+    ```bash
+    pip install -r requirement.txt
+    ```
+- After successful installation, run the following command.
+  
+  ```bash
+  python run.py
+  ``` 
+
+This will spinup local flask server in you machine, you can access app by opening [http://127.0.0.1:5000/](http://127.0.0.1:5000/) link in your browser.
+
+## Author
+
+* Manan Gajjar.
+
+
