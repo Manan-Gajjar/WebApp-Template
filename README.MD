@@ -31,7 +31,7 @@ This template is based on open source project by [AdminLTE.io](https://adminlte.
   
 - Install dependancy
     ```bash
-    pip install -r requirement.txt
+    pip install -r requirements.txt
     ```
 - After successful installation, run the following command.
   
