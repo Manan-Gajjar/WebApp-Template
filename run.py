@@ -2,7 +2,6 @@ import os
 from app import create_app
 
 env = os.environ.get("ENV")
-env = 'local'
 if not env:
     env = 'local'
 
